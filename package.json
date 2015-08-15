@@ -1,0 +1,26 @@
+{
+  "name": "mean-backend",
+  "version": "1.0.0",
+  "description": "Nodejs backend for handling API's and requests from MEAN Mobile and web platforms.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "postinstall": "bower install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manoj-nama/M.E.A.N-backend.git"
+  },
+  "author": "Manoj Nama <manoj.nama@outlook.com> (http://manojnama.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manoj-nama/M.E.A.N-backend/issues"
+  },
+  "homepage": "https://github.com/manoj-nama/M.E.A.N-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "mongoose": "^4.1.2"
+  }
+}

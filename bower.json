@@ -1,0 +1,27 @@
+{
+  "name": "M.E.A.N-backend",
+  "version": "0.0.0",
+  "homepage": "https://github.com/manoj-nama/M.E.A.N-backend",
+  "authors": [
+    "Manoj Nama <manoj.nama@outlook.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.4",
+    "jquery": "~2.1.4",
+    "angular-ui-router": "~0.2.15",
+    "angular-ui-bootstrap": "~0.13.3"
+  }
+}
