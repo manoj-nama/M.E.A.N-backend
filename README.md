@@ -16,4 +16,4 @@ Full `M.E.A.N` stack, of course!
 1. clone the repo `git clone git@github.com:manoj-nama/M.E.A.N-backend.git`
 2. cd `M.E.A.N-backend` && `npm install`
 3. `npm start` to launch server
-4. navigate to `http://localhost:8888` from the browser
+4. navigate to `http://localhost:8080` from the browser
