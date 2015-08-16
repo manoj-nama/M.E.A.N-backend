@@ -532,6 +532,18 @@ module.exports = function (grunt) {
         'concurrent:debug'
       ]);
     }
+    if (target === 'aws') {
+      return grunt.task.run([
+        'clean:server',
+        'env:all',
+        'concurrent:server',
+        'injector',
+        'wiredep',
+        'autoprefixer',
+        'express:dev',
+        'wait'
+      ]);
+    }
 
     grunt.task.run([
       'clean:server',
@@ -542,7 +554,7 @@ module.exports = function (grunt) {
       'autoprefixer',
       'express:dev',
       'wait',
-      //'open',
+      'open',
       'watch'
     ]);
   });
