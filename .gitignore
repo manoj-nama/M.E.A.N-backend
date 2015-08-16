@@ -1,3 +1,9 @@
 node_modules
+public
+.tmp
 .idea
-public/bower_components
+e2e
+client/bower_components
+dist
+/server/config/local.env.js
+npm-debug.log
